@@ -7,6 +7,7 @@ const Homepage = () => {
     useEffect(() => {
         axios.get("/api")
             .then(response => {
+                console.log(response.data)
                 setInitialData(response.data)
             })
     }, [])

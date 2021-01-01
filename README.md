@@ -6,6 +6,12 @@
 
 - Get started by setting up the virtual environment and install dependencies
 - Run the script in the root directory to start the server-
+### Windows
+<pre>
+cd find-my-school/api
+flask run
+</pre>
+### Unix
 <pre>
 npm run start-flask-api
 </pre>
