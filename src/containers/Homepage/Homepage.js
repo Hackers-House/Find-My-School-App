@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
-import Aux from "../../hoc/Aux"
 
 const Homepage = () => {
     const [initialData, setInitialData] = useState([{}])
@@ -13,16 +12,14 @@ const Homepage = () => {
     }, [])
 
     return (
-        <Aux>
-            <div>
-                <h1>
-                    Team Name : {initialData.teamName}
-                </h1>
-                <p>
-                    Project Name: {initialData.projectName}
-                </p>
-            </div>
-        </Aux>
+        <div>
+            <h1>
+                Team Name : {initialData.teamName}
+            </h1>
+            <p>
+                Project Name: {initialData.projectName}
+            </p>
+        </div>
     )
 }
 
