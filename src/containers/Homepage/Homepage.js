@@ -28,18 +28,18 @@ class Homepage extends Component {
                         <div className={classes.Features}>
                             <div className={classes.CompanyFeature}>
                                 <AccountCircleIcon className={classes.Icon} />
-                                <h3>1:Profile</h3>
-                                <p>Complete sign up process to apply. This will make a generic profile of you which you can use to apply to multiple institutions</p>
-                            </div>
-                            <div className={classes.CompanyFeature}>
-                                <SchoolIcon className={classes.Icon} />
-                                <h3>2:SEARCH AND SELECT COLLEGES</h3>
-                                <p>Choose programs and Universities to apply and add them to your dashboard.</p>
+                                <h3>1:PROFILE</h3>
+                                <p>Complete sign up process to make your Find My School Account.</p>
                             </div>
                             <div className={classes.CompanyFeature}>
                                 <PostAddIcon className={classes.Icon} />
-                                <h3>3:SUBMIT APPLICATIONS</h3>
-                                <p>Upload university specific documents, pay fee and submit your application. We will send directly to university admissions committee***.</p>
+                                <h3>2:FILL APPLICATION</h3>
+                                <p>Fill the application form with all the details. This will make a generic profile of you which you can use to apply to multiple institutions</p>
+                            </div>
+                            <div className={classes.CompanyFeature}>
+                                <SchoolIcon className={classes.Icon} />
+                                <h3>3:PREDICT</h3>
+                                <p>Our Machine Learning Model will predict the best college for you.</p>
                             </div>
                         </div>
                     </div>
