@@ -7,6 +7,9 @@ import SchoolIcon from '@material-ui/icons/School';
 import PostAddIcon from '@material-ui/icons/PostAdd';
 
 class Homepage extends Component {
+    continueApplyHandler = () => {
+        this.props.history.push("/apply")
+    }
     render() {
         return (
             <Wrapper>
@@ -15,7 +18,7 @@ class Homepage extends Component {
                         <h1>Hello $NameOfTheUser</h1>
                         <h2>Let us find your perfect school</h2>
                         <div className={classes.Button}>
-                            <Button color="primary" variant="outlined">Get Started</Button>
+                            <Button color="primary" variant="outlined" clicked={this.continueApplyHandler}>Get Started</Button>
                         </div>
                     </div>
                 </div>
