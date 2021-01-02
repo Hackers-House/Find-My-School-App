@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/jappanjeetsingh/Desktop/web/projects/find-my-school/api/venv"
+VIRTUAL_ENV="/Users/jappanjeetsingh/Desktop/web/projects/Find-My-School-App/api/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

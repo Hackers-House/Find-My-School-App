@@ -1,4 +1,4 @@
-#!/Users/jappanjeetsingh/Desktop/web/projects/find-my-school/api/venv/bin/python
+#!/Users/jappanjeetsingh/Desktop/web/projects/Find-My-School-App/api/venv/bin/python
 
 import sys
 import getopt
