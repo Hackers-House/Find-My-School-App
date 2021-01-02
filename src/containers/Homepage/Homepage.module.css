@@ -62,9 +62,14 @@
 
 .CompanyFeaturesSection .Text {
     margin-top: 20px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: gray;
     padding: 0px 200px;
+}
+
+.CompanyFeaturesSection .Text span {
+    color: #6155a6;
+    font-weight: 600;
 }
 
 .Features .Icon {
@@ -86,6 +91,7 @@
 }
 
 .Features p {
+    font-size: 1.1rem;
     color: grey;
     padding: 0 20px;
 }

@@ -126,6 +126,7 @@ class Apply extends Component {
     }
 
     submissionHandler = () => {
+        this.setState({ displayHeading: "Submission in progress..." })
         const formData = {}
         for (let formElementIdentifier in this.state.applyForm) {
             formData[formElementIdentifier] = this.state.applyForm[formElementIdentifier].value
@@ -151,6 +152,7 @@ class Apply extends Component {
                 config: this.state.applyForm[key]
             })
         }
+
         let form = (
             <form>
                 {formElementsArray.map(formElement => {

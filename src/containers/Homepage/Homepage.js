@@ -5,6 +5,7 @@ import Button from "../../components/UI/Button/Button"
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import SchoolIcon from '@material-ui/icons/School';
 import PostAddIcon from '@material-ui/icons/PostAdd';
+import { FormatBold } from "@material-ui/icons";
 
 class Homepage extends Component {
     continueApplyHandler = () => {
@@ -27,7 +28,7 @@ class Homepage extends Component {
                         <h1>
                             How it Works?
                         </h1>
-                        <p className={classes.Text}>With just few clicks, students can send their applications to academic programs at multiple universities. No need to apply through university websites.</p>
+                        <p className={classes.Text}>With just few clicks, students can send their applications to academic programs at multiple institutions. <span>No need to apply by standing for hours in a queue.</span></p>
                         <div className={classes.Features}>
                             <div className={classes.CompanyFeature}>
                                 <AccountCircleIcon className={classes.Icon} />

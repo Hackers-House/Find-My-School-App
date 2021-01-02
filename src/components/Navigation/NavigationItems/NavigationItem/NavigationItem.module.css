@@ -1,5 +1,4 @@
 .NavigationItem {
-    margin-left: 20px;
     display: flex;
     height: 100%;
     width: auto;
@@ -21,5 +20,7 @@
 .NavigationItem a.active {
     background-color: white;
     border-bottom: 4px solid #ffabe1;
+    border-right: 3px solid #ffabe1;
     color: #6155a6;
+    transition: 0.3s;
 }

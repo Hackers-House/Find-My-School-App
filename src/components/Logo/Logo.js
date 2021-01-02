@@ -6,7 +6,7 @@ const logo = () => {
     return (
         <div className={classes.Logo}>
             <img src={booksLogo} alt="logo" />
-            <h2>Find My School</h2>
+            <h1>Find My School</h1>
         </div>
     )
 }
