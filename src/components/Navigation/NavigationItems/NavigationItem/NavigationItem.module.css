@@ -1,5 +1,5 @@
 .NavigationItem {
-    margin: 0;
+    margin-left: 20px;
     display: flex;
     height: 100%;
     width: auto;
@@ -9,7 +9,7 @@
 
 .NavigationItem a {
     font-weight: 600;
-    color: #ffe6e6;
+    color: white;
     height: 100%;
     padding: 22px 10px;
     padding-bottom: 0;
@@ -19,7 +19,7 @@
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-    background-color: #ffe6e6;
+    background-color: white;
     border-bottom: 4px solid #ffabe1;
     color: #6155a6;
 }

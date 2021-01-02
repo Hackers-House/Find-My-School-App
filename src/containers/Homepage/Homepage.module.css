@@ -1,0 +1,96 @@
+* {
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+.Hero {
+    background-image: url("../../assets/educate.svg");
+    background-size: 42% 80%;
+    background-repeat: no-repeat;
+    background-color: #ffe6e6;
+    background-position: bottom right;
+    width: 100%;
+    height: 70vh;
+}
+
+.Content {
+    font-size: 110%;
+    padding: 13% 5% 10% 20%;
+    position: relative;
+    animation-name: content;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes content {
+    0% {
+        left: -1000px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+.Button {
+    position: relative;
+    animation-name: content;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes content {
+    0% {
+        left: -1000px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+.CompanyFeaturesSection {
+    padding: 80px 100px 200px;
+    text-align: center;
+}
+
+.CompanyFeaturesSection h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.CompanyFeaturesSection .Text {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: gray;
+    padding: 0px 200px;
+}
+
+.Features .Icon {
+    font-size: 5rem;
+    color: #6155a6;
+}
+
+.Features {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Features h3 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.Features p {
+    color: grey;
+    padding: 0 20px;
+}
+
+.Icon {
+    font-size: 5rem;
+    color: #6155a6;
+}
