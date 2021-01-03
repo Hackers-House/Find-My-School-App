@@ -6,7 +6,7 @@ const button = (props) => {
     return (
         <div className={classes.Button}>
             <Button
-                style={{ height: "65px" }}
+                style={{ "height": "65px" }}
                 disabled={props.disabled}
                 onClick={props.clicked}
                 color={props.color}

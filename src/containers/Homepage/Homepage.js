@@ -5,7 +5,7 @@ import Button from "../../components/UI/Button/Button"
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import SchoolIcon from '@material-ui/icons/School';
 import PostAddIcon from '@material-ui/icons/PostAdd';
-import { FormatBold } from "@material-ui/icons";
+import RedoIcon from '@material-ui/icons/Redo';
 
 class Homepage extends Component {
     continueApplyHandler = () => {
@@ -35,11 +35,13 @@ class Homepage extends Component {
                                 <h3>1:PROFILE</h3>
                                 <p>Complete sign up process to make your Find My School Account.</p>
                             </div>
+                            <RedoIcon style={{ "color": "#ffe6e6", "fontSize": "5.5rem", "marginBottom": "100px" }} className={classes.RedoIcon} />
                             <div className={classes.CompanyFeature}>
                                 <PostAddIcon className={classes.Icon} />
                                 <h3>2:FILL APPLICATION</h3>
                                 <p>Fill the application form with all the details. This will make a generic profile of you which you can use to apply to multiple institutions</p>
                             </div>
+                            <RedoIcon style={{ "color": "#ffe6e6", "fontSize": "5.5rem", "marginBottom": "100px" }} className={classes.RedoIcon} />
                             <div className={classes.CompanyFeature}>
                                 <SchoolIcon className={classes.Icon} />
                                 <h3>3:PREDICT</h3>

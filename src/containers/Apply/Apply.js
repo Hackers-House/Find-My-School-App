@@ -75,17 +75,17 @@ class Apply extends Component {
                 valid: false,
                 touched: false
             },
-            gpa: {
+            rank: {
                 elementType: "input",
                 elementConfig: {
                     type: "number",
-                    placeholder: "Your 12th GPA"
+                    placeholder: "Your JEE main ranking"
                 },
                 value: "",
                 validation: {
                     required: true,
-                    minLimit: 0,
-                    maxLimit: 10
+                    minLimit: 1,
+                    maxLimit: 150000
                 },
                 valid: false,
                 touched: false
@@ -103,7 +103,7 @@ class Apply extends Component {
                 value: "computerScience",
                 validation: {},
                 valid: true,
-            }
+            },
         },
         formIsValid: false,
         displayHeading: "Fill the School Predicting form"
