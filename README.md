@@ -1,4 +1,4 @@
-<img width="500px" src="https://github.com/Hackers-House/Find-My-School-App/blob/master/src/assets/New-Year-New-Hack_slideshow.png"></img>
+<img width="100%" height="100px" src="https://github.com/Hackers-House/Find-My-School-App/blob/master/src/assets/New-Year-New-Hack_slideshow.png"></img>
 <br />
 <img width="80px" src="https://github.com/Hackers-House/Find-My-School-App/blob/master/src/assets/logo.png"></img>
 
