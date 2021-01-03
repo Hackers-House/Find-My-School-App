@@ -22,6 +22,9 @@ We often end up wasting a lot of time searching for the best school for our kids
 ## What it does :collision: 
 Find My School is an application built to make your hunt for the best school simpler by providing a platform where you can look for your dream institute. At one click you have access academic institutions around the globe the admission process is made paperless and hassle-free on the student end as well as the college end. Colleges and Schools and register with us and conduct the admission process virtually and all at one place. We are making a Flask web application, we are using collaborative filtering to recommend the best school This app facilitates you to shortlist, select and get admitted to your desired/dream institutions in the comfort of your home!!!
 
+## Excited to use?
+- Check it out [here](https://find-my-school-4ca57.web.app)
+
 ## ☑️Features
 
 ##  :thumbsup: Steps to run:
