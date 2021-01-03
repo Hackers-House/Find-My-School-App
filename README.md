@@ -1,6 +1,6 @@
 <img width="80px" src="https://github.com/Hackers-House/Find-My-School-App/blob/master/src/assets/logo.png"></img>
 
-#
+# Submission to New Year New Hack 2021 by MLH.
 # Find my School™
 
 ### Tired of being in the admission queue for hours? 😰
@@ -28,7 +28,7 @@ Find My School is an application built to make your hunt for the best school sim
 - Authentication System (coming soon)
 - Recommendation System
 
-##  :thumbsup: Steps to run:
+##  :thumbsup: Steps to run locally:
 
 #### For Server Side (Flask)
 - The Flask api directory is 
@@ -41,7 +41,7 @@ cd find-my-school/api
 flask run
 </pre>
 
- ### For Client Side (React)
+ #### For Client Side (React)
 <pre>
 cd find-my-school
 npm install
