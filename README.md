@@ -1,4 +1,4 @@
-<img widht="10px" src="https://github.com/Hackers-House/Find-My-School-App/blob/master/src/assets/logo.png"></img>
+<img width="10px" src="https://github.com/Hackers-House/Find-My-School-App/blob/master/src/assets/logo.png"></img>
 
 #
 # Find my School™
