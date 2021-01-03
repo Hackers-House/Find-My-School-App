@@ -1,10 +1,9 @@
-<img width="100%" height="200px" src="https://github.com/Hackers-House/Find-My-School-App/blob/master/src/assets/New-Year-New-Hack_slideshow.png"></img>
+# Submission to New Year New Hack 2021 by MLH.
+<img width="100%" height="300px" src="https://github.com/Hackers-House/Find-My-School-App/blob/master/src/assets/New-Year-New-Hack_slideshow.png"></img>
 <br />
+
 <img width="80px" src="https://github.com/Hackers-House/Find-My-School-App/blob/master/src/assets/logo.png"></img>
 
-
-
-# Submission to New Year New Hack 2021 by MLH.
 # Find my School™
 
 ### Tired of being in the admission queue for hours? 😰
