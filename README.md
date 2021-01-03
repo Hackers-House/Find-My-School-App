@@ -33,7 +33,7 @@ Find My School is an application built to make your hunt for the best school sim
 
 ## Demo
 <pre>
-Demo 👉 <a href="https://youtu.be/s0uXRvcKAhc">link</a>
+Demo 👉 <a href="https://youtu.be/fxX85h8mCOY">link</a>
 </pre>
 
 ## Steps to run locally:
