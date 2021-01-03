@@ -6,8 +6,27 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import SchoolIcon from '@material-ui/icons/School';
 import PostAddIcon from '@material-ui/icons/PostAdd';
 import RedoIcon from '@material-ui/icons/Redo';
+import axios from "axios"
 
 class Homepage extends Component {
+    state = {
+        name: null
+    }
+    componentDidMount() {
+        axios.get("https://find-my-school-4ca57-default-rtdb.firebaseio.com/submission.json")
+            .then(response => {
+                const fetchSubmission = []
+                for (let key in response.data) {
+                    fetchSubmission.push({
+                        ...response.data[key],
+                        id: key
+                    })
+                }
+                this.setState({
+                    name: fetchSubmission[0].applyForm.name
+                })
+            })
+    }
     continueApplyHandler = () => {
         this.props.history.push("/apply")
     }
@@ -16,7 +35,7 @@ class Homepage extends Component {
             <Wrapper>
                 <div className={classes.Hero}>
                     <div className={classes.Content}>
-                        <h1>Hello $NameOfTheUser</h1>
+                        <h1>Hello {this.state.name}</h1>
                         <h2>Let us find your perfect school</h2>
                         <div className={classes.Button}>
                             <Button color="primary" variant="outlined" clicked={this.continueApplyHandler}>Get Started</Button>

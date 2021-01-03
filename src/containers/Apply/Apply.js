@@ -142,6 +142,7 @@ class Apply extends Component {
             .catch(error => {
                 this.setState({ displayHeading: error.message })
             })
+        this.props.history.push("/find-schools")
     }
 
     render() {

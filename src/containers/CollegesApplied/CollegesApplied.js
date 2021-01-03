@@ -28,13 +28,14 @@ class CollegesApplied extends Component {
     render() {
         return (
             <div>
-                {this.state.colleges.map(college => {
+                {/* {this.state.colleges.map(college => {
                     return (
                         <Card
                             key={college.id}
                             colleges={college.collegeName} />
                     )
-                })}
+                })} */}
+                {this.state.colleges}
             </div>
         )
     }
