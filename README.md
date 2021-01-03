@@ -9,7 +9,7 @@
 ### Not sure where your rank lands you? :yum:
 
 
-#### Have you ever found yourself getting distracted for hours browsing the web? Do you get tired and sluggish while studying for exams? 🥱
+### Then you need FIND MY SCHOOL.
 
 ## Inspiration
 We often end up wasting a lot of time searching for the best school for our kids-online and offline both. We also have different conditions and perspective towards which school our kid studies in. We all remember standing in those long lines for 3 hours just to get the application form and waiting for 4 hours or more to get the admission into a top tier college. We wanted to take this entire process virtually. From recommending the best college based on his interest and marks to providing an easy and safer way of managing student documents to a hassle-free way of applying to a college.
