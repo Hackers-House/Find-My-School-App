@@ -56,6 +56,3 @@ npm install
 npm start
 </pre>
 
-
-### Go ahead clone this repository and have some fun 😼
-
